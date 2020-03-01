@@ -15,9 +15,9 @@ h1{
 }
 
 .img-rotated {
--ms-transform: rotate(30deg);
--webkit-transform: rotate(30deg);
-transform: rotate(30deg);
+-ms-transform: rotate(20deg);
+-webkit-transform: rotate(20deg);
+transform: rotate(20deg);
 }
 
 .container-fluid{
@@ -25,6 +25,10 @@ transform: rotate(30deg);
 }
 
 /* Navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
 
 .navbar-brand{
   font-family: "Ubuntu";
