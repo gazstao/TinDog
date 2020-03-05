@@ -25,6 +25,10 @@ p{
   color: #8f8f8f;
 }
 
+ol{
+
+}
+
 #title {
   background-color: #FF4C68;
   color:white;
@@ -97,7 +101,6 @@ transform: rotate(20deg);
 /* Testimonials */
 
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color:white;
@@ -109,6 +112,9 @@ transform: rotate(20deg);
     margin: 20px;
 }
 
+.carousel-item{
+  padding: 7% 15%;
+}
 
 /* Press */
 
