@@ -1,19 +1,19 @@
-body{
-  font-family: 'Montserrat', sans-serif ;
-  color:black;
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
-h1{
-  font-family: 'Montserrat', sans-serif ;
+h1 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
-h2{
+h2 {
   font-family: "Montserrat";
   font-size: 3rem;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 h3 {
@@ -21,110 +21,139 @@ h3 {
   font-weight: bold;
 }
 
-p{
+p {
   color: #8f8f8f;
 }
 
-ol{
-
-}
+ol {}
 
 #title {
   background-color: #FF4C68;
-  color:white;
+  color: white;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 3% 15%;
 }
 
-.icon{
+.icon {
   margin-bottom: 1rem;
   color: #ef8172;
 }
 
-.icon:hover{
+.icon:hover {
   color: #ff4c68;
 }
 
 .img-rotated {
--ms-transform: rotate(20deg);
--webkit-transform: rotate(20deg);
-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
 }
 
 /* Navigation Bar */
-
-.navbar{
+.navbar {
   padding: 0 0 4.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
   color: white;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat"; /* Montserrat-Light? */
+  font-family: "Montserrat";
+  /* Montserrat-Light? */
 }
 
-
 /* Download Buttons */
-
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
-
 /* Title Image */
-
-.title-image{
+.title-image {
   width: 60%;
 }
 
-
 /* Features */
-
 #features {
   padding: 7% 15%;
 }
 
-.feature-box{
+.feature-box {
   text-align: center;
   padding: 5%;
 }
 
-
 /* Testimonials */
-
-#testimonials{
-    text-align: center;
-    background-color: #ef8172;
-    color:white;
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
 }
 
-.testimonial-image{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 
 /* Press */
-
-#press{
+#press {
   background-color: #ef8172;
   text-align: center;
   padding: 3%;
 }
 
-.img-press{
+.img-press {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  padding: 3%;
+}
+
+.pricing-box {}
+
+/* Cta */
+#cta {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+  color: #fff;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+}
+
+.by {
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  margin: 10px auto;
+}
+
+.gazstao {
+  width: 80px;
+  height: 40px;
+  background-color: yellow;
+  color: black;
+  transform: rotate(25deg);
+  margin: 0 auto 5% auto;
+  position: relative;
+  bottom: 20px;
 }
