@@ -33,7 +33,7 @@ ol {}
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .icon {
@@ -45,11 +45,6 @@ ol {}
   color: #ff4c68;
 }
 
-.img-rotated {
-  -ms-transform: rotate(20deg);
-  -webkit-transform: rotate(20deg);
-  transform: rotate(20deg);
-}
 
 /* Navigation Bar */
 .navbar {
@@ -76,12 +71,20 @@ ol {}
 
 /* Title Image */
 .title-image {
-  width: 60%;
+  width: 50%;
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+  position: absolute;
+  left: 10rem;
 }
 
 /* Features */
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
