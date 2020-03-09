@@ -124,11 +124,16 @@ ol {}
   padding: 3%;
 }
 
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
 .pricing-box {}
 
 /* Cta */
 #cta {
-  background-color: #ef8172;
+  background-color: #FF4C68;
   text-align: center;
   padding: 3%;
   color: #fff;
