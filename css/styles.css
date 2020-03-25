@@ -21,6 +21,21 @@ ol {}
   padding: 7% 15%;
 }
 
+
+/* Sections */
+
+.colorida{
+  background-color: #FF4C68;
+  color: white;
+}
+
+.branca{
+  background-color: white;
+}
+
+
+/* Icones */
+
 .icon {
   margin-bottom: 1rem;
   color: #ef8172;
@@ -31,6 +46,7 @@ ol {}
 }
 
 /* Headings */
+
 .big-heading {
   font-size: 3rem;
   line-height: 1.5;
@@ -44,8 +60,6 @@ ol {}
 
 #title {
   text-align: left;
-  background-color: #FF4C68;
-  color: white;
 }
 
 #title .container-fluid{
@@ -87,7 +101,6 @@ ol {}
 
 /* Features */
 #features {
-  background-color: white;
   position: relative;
   z-index: 1;
 }
@@ -99,7 +112,6 @@ ol {}
 /* Testimonials */
 #testimonials {
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-image {
